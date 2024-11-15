@@ -1,4 +1,5 @@
  
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); 
 
 html{
 	font-size: 62.5%;
@@ -6,6 +7,8 @@ html{
 body{	
 	font-size: 1.6rem; 
 	font-weight: 400;
+	background: url(../images/bg.png) no-repeat scroll center center / cover;
+	font-family: "Outfit", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -19,14 +22,378 @@ ul{
 ul li a,a{
 	text-decoration: none;
 }
+
+.container	{
+	max-width: 1370px;
+} 
+
+p {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.section_padding{
+	padding: 80px 0;
+}
+
 /*======================  Start Page  ======================*/
 
+.header_area {
+	padding: 41px 0;
+}
 
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
 
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 29px;
+}
 
+.logo_main {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
 
+.logo_main img {
+	width: 250px;
+}
 
+.logo_main p {
+	font-family: 'MALDINI';
+	font-size: 24px;
+	color: #fff;
+	font-weight: 800;
+}
+
+.logo_main p span {
+	color: #E73DFF;
+}
+
+.btn_1 {
+	padding: 8px 20px;
+	background: #fff;
+	border-radius: 8px;
+	color: #E73DFF;
+	font-size: 20px;
+	font-weight: 900;
+	transition: 0.3s; 
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.btn_1:hover {
+	opacity: 0.83;
+	color: #E73DFF;
+}
+
+.btn_2 {
+	padding: 8px 17px;
+	background: #E73DFF;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	transition: 0.3s;
+
+}
+
+.btn_2:hover {
+	opacity: 0.83;
+	color: #fff;
+}
+
+.download .btn_2 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.header_social ul {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.btn_1.social_btn {
+	height: 40px;
+	width: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner_right img {
+	width: 100%;
+}
+
+.banner_left h2 {
+	font-size: 74px;
+	font-weight: 800;
+	color: #FAFAFA;
+	font-family: 'MALDINI';
+	line-height: 70px;
+}
+
+.banner_left p {
+	margin: 21px 0 44px 0;
+	opacity: 80%;
+}
+
+.banner_left a {
+	width: 185px;
+}
+
+.season {
+	background: #000;
+	padding: 103px 40px 117px 40px;
+	border-radius: 41px;
+}
+
+.season_left h1 {
+	font-size: 156px;
+	font-weight: 800;
+	color: #fff; 
+	font-family: 'MALDINI';
+	line-height: 130px;
+	text-transform: uppercase;
+}
+
+.season_left h2 {
+	font-size: 73px;
+	font-weight: 800;
+	color: #fff; 
+	font-family: 'MALDINI';
+	line-height: 70px;
+	text-transform: capitalize;
+}
+
+.season_right {
+	text-align: center;
+	width: 87%;
+	margin: 0 0 0 auto;
+}
+
+.season_right p {
+	padding-top: 35px;
+	margin-bottom: 64px;
+}
+
+.section_title h2 {
+	font-size: 74px;
+	line-height: 70px;
+	color: #fff; 
+	font-family: 'MALDINI';
+	text-align: center; 
+}
+
+.section_title{
+	margin-bottom: 80px;
+}
+
+.exit_img{
+	width: 100%;
+}
+
+.single_game ul li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 17px 50px; 
+	background: #000;
+	margin-bottom: 25px;
+	border-radius: 10px;
+}
+
+.game_img{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.single_game li img {
+	width: 48px;
+}
+
+.single_game ul li p {
+	font-size: 40px;
+	font-weight: 800;
+	font-family: 'MALDINI';
+}
+
+.discover_content_left h3 {
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 52px;
+	color: #fff;
+	font-family: 'MALDINI';
+	margin-bottom: 12px;
+}
+
+.discover_content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+ 
+
+.discover_img img {
+	width: 100%;
+}
+
+.discover_content_left {
+	flex: 0 0 34%;
+	text-align: center;
+}
+
+.single_rewords img { 
+	position: relative;
+	z-index: 99;
+}
+
+.discover_content {
+	position: relative;
+}
+
+.discover_img {
+	width: 875px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -355px;
+}
+
+.rewords_row {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.single_rewords{
+	width: 290px;
+	position: relative;
+	border-radius: 46px;
+	overflow: hidden;
+	text-align: center;
+	padding: 32px;
+}
+
+.single_rewords::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 23%;
+}
+
+.rewords_text {
+	text-align: center;
+	position: absolute;
+	top: -100%;
+	left: 0;
+	z-index: 99;
+	background: #000000b2;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center; 
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
+}
+
+.single_rewords:hover .rewords_text {
+	top: 0;
+	opacity: 1;
+	visibility: visible;
+}
+
+.rewords_text p {
+	width: 78%;
+	margin: 0 auto;
+}
+
+.rewords_btm_text {
+	text-align: center;
+	width: 49%;
+	margin: 47px auto 0 auto;
+}
+
+.rewords_btm_text p { 
+	opacity: 60%;
+}
+
+.promotion_top_text h3 {
+	font-family: 'MALDINI';
+	color: #fff;
+	font-size: 48px;
+	font-weight: 800; 
+}
+ 
+.promotion_top_text {
+	text-align: center;
+	width: 72%;
+	margin: 0 auto 64px auto;
+}
+
+.promotion_text ul p {
+	font-size: 36px;
+	font-family: 'MALDINI';
+	color: #fff;
+} 
+
+.promotion_text {
+	background: #000;
+	padding: 57px;
+	border-radius: 35px;
+}
+
+.promotion_carsousel {
+	width: 90%;
+	position: relative;
+}
+
+.single_promotion img {
+	width: 95% !important;
+	margin: 0 auto;
+}
+
+.promotion_carsousel .owl-next {
+	position: absolute;
+	top: 44%;
+	right: 0;
+}
+
+.promotion_carsousel .owl-prev {
+	position: absolute;
+	top: 44%;
+	left: 0;
+}
+
+button:focus-within{
+	outline: none;
+}
+
+.promotion_carsousel.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent; 
+}
 
 /*======================  End Page  ======================*/
 
 
+
+/* 
+
+font-family: 'MALDINI';
+
+ */

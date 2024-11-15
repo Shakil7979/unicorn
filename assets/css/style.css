@@ -1,5 +1,6 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 html{
 	font-size: 62.5%;
@@ -7,7 +8,7 @@ html{
 body{	
 	font-size: 1.6rem; 
 	font-weight: 400;
-	background: url(../images/bg.png) no-repeat scroll center center / cover;
+	background: url(../images/bg.png) no-repeat scroll center center / 100% 100%;
 	font-family: "Outfit", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -53,6 +54,11 @@ p {
 	display: flex;
 	align-items: center;
 	gap: 29px;
+}
+
+.logo_btn {
+	display: flex;
+	gap: 28px;
 }
 
 .logo_main {
@@ -152,9 +158,79 @@ p {
 }
 
 .season {
-	background: #000;
 	padding: 103px 40px 117px 40px;
 	border-radius: 41px;
+	position: relative;
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.season_rightt h2 {
+	font-size: 120px;
+	color: #fff;
+	font-family: 'MALDINI';
+}
+
+.season_rightt {
+	text-align: center;
+}
+
+.season_rightt h4 {
+	font-size: 50px;
+	color: #fff;
+	font-family: 'MALDINI';
+}
+
+.season_btn {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+}
+
+.season_img {
+	position: absolute;
+	left: -70px;
+	top: 12px;
+	z-index: 999999;
+}
+
+.season_rightt p {
+	margin: 12px auto 26px auto;
+	width: 90%;
+}
+
+.season:before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	background: #FC7777;
+	opacity: 13%;
+}
+
+.season:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	background: #E73DFF;
+	opacity: 28%;
+}
+
+.season_contentt {
+	position: relative;
+	z-index: 99;
+}
+
+.btn_2 img {
+	width: 20px !important;
+	margin-left: 5px;
+	margin-top: -6px;
 }
 
 .season_left h1 {
@@ -198,8 +274,27 @@ p {
 	margin-bottom: 80px;
 }
 
+.section_title h2 span {
+	color: #E73DFF;
+}
+
 .exit_img{
 	width: 100%;
+}
+
+.single_game_border{
+	position: relative;
+}
+
+.single_game_border::after{
+	content: "";
+	width: 4px;
+	height: 90%;
+	position: absolute;
+	bottom: 0;
+	right: 0; 
+	background: #fff;
+	opacity: 28%;
 }
 
 .single_game ul li {
@@ -210,6 +305,7 @@ p {
 	background: #000;
 	margin-bottom: 25px;
 	border-radius: 10px;
+	width: 94%;
 }
 
 .game_img{
@@ -234,6 +330,10 @@ p {
 	color: #fff;
 	font-family: 'MALDINI';
 	margin-bottom: 12px;
+}
+
+.discover_content_left h3 span {
+	color: #E73DFF;
 }
 
 .discover_content {
@@ -269,6 +369,7 @@ p {
 	margin: auto;
 	top: -355px;
 }
+
 
 .rewords_row {
 	display: flex;
@@ -335,9 +436,10 @@ p {
 
 .promotion_top_text h3 {
 	font-family: 'MALDINI';
-	color: #fff;
+	color: #E73DFF;
 	font-size: 48px;
-	font-weight: 800; 
+	font-weight: 800;
+	margin-bottom: 36px;
 }
  
 .promotion_top_text {
@@ -350,12 +452,7 @@ p {
 	font-size: 36px;
 	font-family: 'MALDINI';
 	color: #fff;
-} 
-
-.promotion_text {
-	background: #000;
-	padding: 57px;
-	border-radius: 35px;
+	text-align: center;
 }
 
 .promotion_carsousel {
@@ -388,6 +485,144 @@ button:focus-within{
 	background: transparent; 
 }
 
+.explore_left {
+	background: #00000079;
+	padding: 40px 24px;
+	border-radius: 20px;
+	position: absolute;
+	width: 491px;
+	top: 100px;
+	left: 41px;
+}
+
+.explore_left h4 {
+	font-size: 32px;
+	color: #fff;
+	font-family: 'MALDINI';
+	line-height: 40px;
+	font-weight: 800;
+	margin-bottom: 17px;
+}
+
+.explore_btn {
+	text-align: right;
+	margin-top: 45px;
+}
+
+.explore_img img {
+	width: 100%;
+}
+
+.explore_content {
+	position: relative;
+}
+
+.limite_carousel .single_promotion img {
+	width: 75% !important;
+}
+
+
+.limited_text h3 {
+	font-size: 48px;
+	color: #fff;
+	font-family: 'MALDINI';
+	line-height: 52px;
+	margin-bottom: 20px;
+}
+
+.limited_text h3 span {
+	color: #E73DFF;
+}
+
+.limited_text p {
+	margin-bottom: 35px;
+}
+
+.limited_text {
+	width: 80%;
+}
+
+
+.become_left h3 {
+	font-size: 48px;
+	color: #fff;
+	font-family: 'MALDINI';
+	line-height: 52px;
+	margin-bottom: 20px;
+	width: 84%;
+}
+
+.become_left h3 span {
+	color: #E73DFF;
+}
+
+.become_btn {
+	display: flex;
+	gap: 50px;
+	margin-top: 49px;
+}
+
+.becone_area {
+	margin-bottom: 755px;
+}
+
+
+.footer_area {
+	background: #000;
+}
+
+.footer_menu ul {
+	display: flex;
+	gap: 50px;
+}
+
+.footer_menu ul li a {
+	color: #fff;
+	opacity: 50%;
+	font-family: "Krona One", sans-serif;
+	font-size: 18px;
+	transition: 0.3s;
+}
+
+.footer_menu ul li a:hover {
+	opacity: 100%;
+}
+
+.footer_social ul {
+	display: flex;
+	justify-content: flex-end;
+	gap: 14px;
+}
+
+.header_top {
+	margin-bottom: 55px;
+	padding-bottom: 36px;
+	border-bottom: 1px solid #fff;
+}
+
+.header_copy p {
+	font-size: 16px;
+	opacity: 50%;
+}
+
+.header_cond_term ul {
+	display: flex;
+	justify-content: flex-end;
+	gap: 48px;
+}
+
+.header_cond_term ul li a { 
+	font-size: 16px;
+	opacity: 50%;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.header_cond_term ul li a:hover {
+	opacity: 100%;
+}
+
+
 /*======================  End Page  ======================*/
 
 
@@ -395,5 +630,6 @@ button:focus-within{
 /* 
 
 font-family: 'MALDINI';
+font-family: "Krona One", sans-serif;
 
  */

@@ -24,9 +24,6 @@ ul li a,a{
 	text-decoration: none;
 }
 
-.container	{
-	max-width: 1370px;
-} 
 
 p {
 	font-size: 18px;
@@ -453,6 +450,10 @@ p {
 	font-family: 'MALDINI';
 	color: #fff;
 	text-align: center;
+}
+
+.exit_img img {
+	width: 100%;
 }
 
 .promotion_carsousel {

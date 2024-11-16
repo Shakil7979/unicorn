@@ -1,5 +1,10 @@
 $(document).ready(function(){  
 
+	$(window).on('load', function () { 
+		$('#preloader').fadeOut('slow', function () {
+			$(this).remove();  
+		});
+	});
 
 	$('.promotion_carsousel').owlCarousel({
 		items:1,
@@ -10,11 +15,6 @@ $(document).ready(function(){
 		navText: ["<img src='assets/images/promotion/left.png'>","<img src='assets/images/promotion/right.png'>"]
 	});
 
-	$(window).on('load', function () { 
-		$('#preloader').fadeOut('slow', function () {
-			$(this).remove();  
-		});
-	});
 	
 
 

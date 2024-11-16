@@ -4,26 +4,354 @@
     } 
 }
 
-@media all and (max-width: 1365px){
-
+@media all and (max-width: 1370px){
+    .banner_left h2 {
+        font-size: 60px; 
+    }
+    .season { 
+        width: 100%; 
+    }
+    .single_game ul li p {
+        font-size: 32px; 
+    }
+    .single_game li img {
+        width: 30px;
+    }
+    .discover_content_left h3 {
+        font-size: 41px; 
+        line-height: 43px; 
+    }
+    .explore_left { 
+        width: 380px; 
+    }
+    .section_title h2 {
+        font-size: 50px;
+        line-height: 60px; 
+    }
+    .limited_text h3 {
+        font-size: 40px;  
+        line-height: 46px; 
+    }
+    .explore_left h4 {
+        font-size: 27px; 
+        line-height: 32px; 
+    }
+    .become_left h3 {
+        font-size: 40px; 
+    }
 }
 
 @media all and (max-width: 1199px){
-
+    .logo { 
+        gap: 2px;
+    }
+    .btn_1,
+    .btn_2 { 
+        font-size: 16px; 
+    }
+    .banner_left h2 {
+        font-size: 47px;
+        line-height: 49px;
+    }
+    .season_rightt h2 {
+        font-size: 52px; 
+    }
+    .season_rightt h4 {
+        font-size: 34px; 
+    }
+    .season_img { 
+        top: 67px; 
+        width: 45%;
+    }
+    .season_img img {
+        width: 100%;
+    }
+    .single_partner img {
+        width: 100%;
+    }
+    .single_game ul li p {
+        font-size: 25px;
+    }
+    .single_game ul li { 
+        padding: 17px 22px; 
+    }
+    .discover_content_left h3 {
+        font-size: 30px;
+        line-height: 27px;
+    }
+    .discover_content_left img {
+        width: 50%;
+    }
+    .footer_menu ul { 
+        gap: 35px;
+    }
 }
 
 @media all and (max-width: 991px){
-	
+    .logo_btn { 
+        gap: 10px;
+    }
+    .logo_main img {
+        width: 152px;
+    }
+    .btn_1, .btn_2 {
+        font-size: 14px; 
+        padding: 5px 9px; 
+    }
+    .btn_1.social_btn {
+        height: 32px;
+        width: 32px; 
+    }
+    .banner_left h2 {
+        font-size: 37px;
+        line-height: 44px;
+    }
+    p {
+        font-size: 16px; 
+    }
+    .season {
+        padding: 50px; 
+    }
+    .game_img.game_img_2 img {
+        width: 100%;
+    }
+    .single_game ul li p {
+        font-size: 20px;
+    }
+    .game_img.game_img_1 img {
+        width: 98px;
+    }
+    .discover_img {
+        width: 700px; 
+        top: -303px;
+    }
+    .single_rewords img { 
+        width: 100%;
+    }
+    .rewords_row { 
+        gap: 42px;
+    }
+    .section_title h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .promotion_text ul p {
+        font-size: 20px; 
+    }
+    .explore_left {
+        width: 268px;
+        padding: 20px;
+    }
+    .explore_left h4 {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 5px;
+    }
+    .explore_btn { 
+        margin-top: 6px;
+    }
+    .limited_text h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .promotion_carsousel .owl-next { 
+        right: -27px;
+    }
+    .promotion_carsousel .owl-prev { 
+        left: -27px;
+    }
+    .become_left h3 {
+        font-size: 26px;
+        line-height: 35px;
+        width: 100%;
+    }
+    .footer_menu ul li a { 
+        font-size: 14px; 
+    }
+    .footer_menu ul {
+        gap: 22px;
+    }
+    .banner_right {
+        margin-top: 35px;
+    }
 }
 
 @media all and (max-width: 767px){
-	
+    .banner_left {
+        text-align: center;
+    }
+    .season_img { 
+        width: 100%;
+        position: inherit;
+    }
+    .season_contentt .row {
+        flex-direction: column-reverse;
+    }
+    .season {
+        padding: 50px 50px 0 50px;
+    }
+    .section_title {
+        margin-bottom: 40px;
+    }
+    .section_padding {
+        padding: 45px 0;
+    }
+    .single_partner img {
+        width: 50%; 
+    }
+    .single_partner {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    .single_game_border::after { 
+        width: 0px; 
+    }
+    .single_game ul li { 
+        width: 100%;
+    }
+    .discover_content { 
+        flex-direction: column;
+        gap: 25px;
+    }
+    .discover_img {
+        width: 300px;
+        top: 0;
+        position: inherit;
+    }
+    .discover_img img {
+        object-fit: cover;
+    }
+    .rewords_row { 
+        flex-direction: column;
+        align-items: center;
+    }
+    .promotion_carsousel {
+        width: 100%; 
+    }
+    .explore_left { 
+        position: inherit; 
+        width: 100% !important;
+        margin-top: 43px;
+    }
+    .explore_content .row {
+        flex-direction: column-reverse;
+    }
+    .limited_text {
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .become_left {
+        text-align: center;
+    }
+    .become_btn { 
+        justify-content: center;
+    }
+    .footer_social ul { 
+        justify-content: center;
+        gap: 14px;
+        margin-top: 34px;
+    }
+    .header_copy {
+        text-align: center;
+    }
+    .header_cond_term ul { 
+        justify-content: center;
+        gap: 48px;
+        margin-top: 25px;
+    }
+    .limite_carousel .single_promotion img {
+        width: 90% !important;
+        margin: 0 auto;
+    }
 }
 
 @media all and (max-width: 575px){
-	
+    .header { 
+        flex-direction: column;
+    }
+    .logo { 
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    .banner_left h2 {
+        font-size: 31px;
+        line-height: 44px;
+        margin-top: 40px;
+    }
+    .season_rightt h2 {
+        font-size: 40px;
+    }
+    .season_rightt h4 {
+        font-size: 24px;
+    }
+    .season_rightt p {
+        margin: 12px auto 26px auto;
+        width: 100%;
+    }
+    p {
+        font-size: 14px;
+    }
+    .section_title h2 {
+        font-size: 30px; 
+        line-height: 30px;
+    }
+    .single_partner img {
+        width: 30%;
+    }
+    .rewords_btm_text { 
+        width: 88%; 
+    }
+    .explore_btn {
+        text-align: center; 
+        margin-top: 31px;
+    }
+    .explore_left { 
+        text-align: center;
+    }
+    .limite_carousel .single_promotion img {
+        width: 77% !important; 
+    }
+    .becone_area {
+        margin-bottom: 418px;
+    }
+    body{	 
+        background: url(../images/bg.png) no-repeat scroll center center / cover; 
+    }
+    .footer_menu ul {
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .season_img img { 
+        margin-top: 38px;
+    }
+    .season { 
+        border-radius: 15px; 
+    }
+    .promotion_carsousel .owl-prev img ,
+    .promotion_carsousel .owl-next img {
+        width: 60px;
+    }
+    .promotion_carsousel .owl-prev ,
+    .promotion_carsousel .owl-next { 
+        top: 40%; 
+    }
 }
 
 @media all and (max-width: 450px){
-	
+    .banner_left h2 {
+        font-size: 27px;
+        line-height: 36px;
+        margin-top: 40px;
+    }
+    .season_btn { 
+        gap: 10px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btn_1, .btn_2 { 
+        justify-content: center;
+    }
 }

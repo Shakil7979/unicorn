@@ -174,6 +174,9 @@
     .banner_right {
         margin-top: 35px;
     }
+    .btn_1.join_btn { 
+        padding: 5px 9px;
+    }
 }
 
 @media all and (max-width: 767px){
@@ -220,6 +223,8 @@
     }
     .discover_img img {
         object-fit: cover;
+        height: 219px;
+        margin-top: -74px;
     }
     .rewords_row { 
         flex-direction: column;
@@ -266,14 +271,27 @@
     }
 }
 
-@media all and (max-width: 575px){
-    .header { 
-        flex-direction: column;
+@media all and (max-width: 575px){ 
+    .mobile_hide {
+        display: none;
+    }
+    .discover_content_left h3 {
+        font-size: 25px;
+        line-height: 17px;
+    }
+    .dekstop_hide{ 
+        display: block;
+    }
+    .btn_2 img {
+        width: 17px !important; 
+    }
+    .seaeson_blur { 
+        bottom: 0; 
+        top: unset;
     }
     .logo { 
         width: 100%;
         justify-content: space-between;
-        margin-bottom: 25px;
     }
     .banner_left h2 {
         font-size: 31px;
@@ -298,7 +316,7 @@
         line-height: 30px;
     }
     .single_partner img {
-        width: 30%;
+        width: 150px;
     }
     .rewords_btm_text { 
         width: 88%; 

@@ -15,7 +15,9 @@ $(document).ready(function(){
 		navText: ["<img src='assets/images/promotion/left.png'>","<img src='assets/images/promotion/right.png'>"]
 	});
 
-	
+	$(document).on('click','.mobile_bars',function(){
+		$('.mobile_menu').slideToggle();
+	})
 
 
 

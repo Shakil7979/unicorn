@@ -183,12 +183,27 @@
     .banner_left {
         text-align: center;
     }
+    .single_game ul li p {
+        font-size: 14px;
+    }
     .season_img { 
         width: 100%;
         position: inherit;
     }
+    .single_game ul li {
+        padding: 9px 12px;
+    }
+    .single_game li img {
+        width: 18px;
+    }
+    .single_game_border::after { 
+        right: -16px; 
+    }
     .season_contentt .row {
         flex-direction: column-reverse;
+    }
+    .game_img.game_img_1 img {
+        width: 71px;
     }
     .season {
         padding: 50px 50px 0 50px;
@@ -205,10 +220,7 @@
     .single_partner {
         text-align: center;
         margin-bottom: 36px;
-    }
-    .single_game_border::after { 
-        width: 0px; 
-    }
+    } 
     .single_game ul li { 
         width: 100%;
     }
@@ -364,6 +376,15 @@
         line-height: 36px;
         margin-top: 40px;
     }
+    .single_game ul li p {
+        font-size: 11px;
+    }
+    .single_game ul li { 
+        margin-bottom: 10px; 
+    }
+    .game_img.game_img_1 img {
+        width: 47px;
+    }
     .season_btn { 
         gap: 10px;
         justify-content: center;
@@ -371,5 +392,8 @@
     }
     .btn_1, .btn_2 { 
         justify-content: center;
+    }
+    .single_game_border::after { 
+        width: 2px; 
     }
 }

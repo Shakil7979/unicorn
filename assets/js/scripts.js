@@ -14,10 +14,6 @@ $(document).ready(function(){
 		autoplay:true,
 		navText: ["<img src='assets/images/promotion/left.png'>","<img src='assets/images/promotion/right.png'>"]
 	});
-
-	// $(document).on('click','.mobile_bars',function(){
-	// 	$('.mobile_menu').slideToggle();
-	// })
  
 	$('.mobile_bars').click(function (e) {
 		e.preventDefault();  

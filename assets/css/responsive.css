@@ -1,3 +1,4 @@
+ 
 @media all and (min-width: 1400px){ 
     .container	{
         max-width: 1370px;
@@ -200,7 +201,10 @@
         right: -16px; 
     }
     .season_contentt .row {
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
     .game_img.game_img_1 img {
         width: 71px;
@@ -225,7 +229,10 @@
         width: 100%;
     }
     .discover_content { 
-        flex-direction: column;
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
+            -ms-flex-direction: column; 
+                flex-direction: column;
         gap: 25px;
     }
     .discover_img {
@@ -234,13 +241,19 @@
         position: inherit;
     }
     .discover_img img {
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
         height: 219px;
         margin-top: -74px;
     }
     .rewords_row { 
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
+            -ms-flex-direction: column; 
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .promotion_carsousel {
         width: 100%; 
@@ -251,7 +264,10 @@
         margin-top: 43px;
     }
     .explore_content .row {
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
     .limited_text {
         width: 100%;
@@ -262,10 +278,14 @@
         text-align: center;
     }
     .become_btn { 
-        justify-content: center;
+        -webkit-box-pack: center; 
+            -ms-flex-pack: center; 
+                justify-content: center;
     }
     .footer_social ul { 
-        justify-content: center;
+        -webkit-box-pack: center; 
+            -ms-flex-pack: center; 
+                justify-content: center;
         gap: 14px;
         margin-top: 34px;
     }
@@ -273,7 +293,9 @@
         text-align: center;
     }
     .header_cond_term ul { 
-        justify-content: center;
+        -webkit-box-pack: center; 
+            -ms-flex-pack: center; 
+                justify-content: center;
         gap: 48px;
         margin-top: 25px;
     }
@@ -303,7 +325,9 @@
     }
     .logo { 
         width: 100%;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .banner_left h2 {
         font-size: 31px;
@@ -351,8 +375,13 @@
     }
     .footer_menu ul {
         gap: 5px;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .season_img img { 
         margin-top: 38px;
@@ -387,11 +416,18 @@
     }
     .season_btn { 
         gap: 10px;
-        justify-content: center;
-        flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .btn_1, .btn_2 { 
-        justify-content: center;
+        -webkit-box-pack: center; 
+            -ms-flex-pack: center; 
+                justify-content: center;
     }
     .single_game_border::after { 
         width: 2px; 

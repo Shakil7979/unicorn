@@ -3,11 +3,88 @@
     .container	{
         max-width: 1370px;
     } 
+    
 }
 
 @media all and (max-width: 1370px){
     .banner_left h2 {
         font-size: 60px; 
+    } 
+    .exit_video img {  
+        width: 19%;
+    }
+    .map_1 {
+        width: 201px;
+        height: 155px; 
+    }
+    .map_2 {
+        width: 166px;
+        height: 96px; 
+        bottom: 217px;
+        right: 190px; 
+    }
+    .map_3 {
+        width: 86px;
+        height: 109px; 
+        bottom: 261px;
+        right: 334px; 
+    }
+    .map_4 {
+        width: 82px;
+        height: 43px; 
+        bottom: 353px;
+        right: 306px; 
+    }
+    .map_5 {
+        width: 188px;
+        height: 84px; 
+        bottom: 351px;
+        right: 39px; 
+    }
+    .map_6 {
+        width: 125px;
+        height: 79px; 
+        bottom: 253px;
+        right: 93px; 
+    }
+    .map_7 {
+        width: 63px;
+        height: 56px; 
+        bottom: 286px;
+        left: 43px; 
+    }
+    .map_8 {
+        width: 154px;
+        height: 108px; 
+        bottom: 239px;
+        left: 197px; 
+    }
+    .map_9 {
+        width: 95px;
+        height: 72px; 
+        bottom: 287px;
+        left: 154px; 
+    }
+    .map_10 {
+        width: 52px;
+        height: 50px; 
+        bottom: 144px;
+        left: 65px; 
+    }
+    .map_11 {
+        width: 162px;
+        height: 58px; 
+        bottom: 347px;
+        left: 103px; 
+    }
+    .map_12 {
+        width: 143px;
+        height: 65px; 
+        bottom: 202px;
+        left: 113px; 
+    }
+    .season_orgin_img { 
+        width: 82%;
     }
     .season { 
         width: 100%; 
@@ -45,6 +122,76 @@
 @media all and (max-width: 1199px){
     .logo { 
         gap: 2px;
+    }
+    .map_1 {
+        width: 147px;
+        height: 93px;
+    }
+    .map_2 {
+        width: 123px;
+        height: 68px;
+        bottom: 177px;
+        right: 160px;
+    }
+    .map_3 {
+        width: 67px;
+        height: 86px;
+        bottom: 219px;
+        right: 280px;
+    }
+    .map_4 {
+        width: 60px;
+        height: 38px;
+        bottom: 294px;
+        right: 261px;
+    }
+    .map_5 {
+        width: 142px;
+        height: 64px;
+        bottom: 297px;
+        right: 39px;
+    }
+    .map_6 {
+        width: 115px;
+        height: 70px;
+        bottom: 209px;
+        right: 75px;
+    }
+    .map_7 {
+        width: 51px;
+        height: 43px;
+        bottom: 244px;
+        left: 38px;
+    }
+    .map_8 {
+        width: 112px;
+        height: 95px;
+        bottom: 196px;
+        left: 167px;
+    }
+    .map_9 {
+        width: 74px;
+        height: 54px;
+        bottom: 246px;
+        left: 127px;
+    }
+    .map_10 {
+        width: 49px;
+        height: 45px;
+        bottom: 124px;
+        left: 50px;
+    }
+    .map_11 {
+        width: 129px;
+        height: 54px;
+        bottom: 294px;
+        left: 87px;
+    }
+    .map_12 {
+        width: 116px;
+        height: 52px;
+        bottom: 173px;
+        left: 98px;
     }
     .btn_1,
     .btn_2 { 
@@ -92,16 +239,108 @@
     .logo_btn { 
         gap: 10px;
     }
+    .header_area { 
+        position: relative;
+        z-index: 9999;
+    }
+    .banner_area_add { 
+        z-index: -1;
+    }
+    .btn_1.social_btn.mobile_bars i {
+        font-size: 18px;
+    }
+    .map_1 {
+        width: 99px;
+        height: 62px;
+    }
+    .map_2 {
+        width: 103px;
+        height: 53px;
+        bottom: 127px;
+        right: 113px;
+    }
+    .map_3 {
+        width: 54px;
+        height: 74px;
+        bottom: 158px;
+        right: 207px;
+    }
+    .map_4 {
+        width: 60px;
+        height: 38px;
+        bottom: 219px;
+        right: 187px;
+    }
+    .map_5 {
+        width: 109px;
+        height: 57px;
+        bottom: 215px;
+        right: 27px;
+    }
+    .map_6 {
+        width: 83px;
+        height: 53px;
+        bottom: 159px;
+        right: 58px;
+    }
+    .map_7 {
+        width: 38px;
+        height: 36px;
+        bottom: 181px;
+        left: 27px;
+    }
+    .map_8 {
+        width: 86px;
+        height: 69px;
+        bottom: 144px;
+        left: 126px;
+    }
+    .map_9 {
+        width: 61px;
+        height: 45px;
+        bottom: 181px;
+        left: 95px;
+    }
+    .map_10 {
+        width: 30px;
+        height: 27px;
+        bottom: 90px;
+        left: 38px;
+    }
+    .map_11 {
+        width: 92px;
+        height: 44px;
+        bottom: 212px;
+        left: 69px;
+    }
+    .map_12 {
+        width: 70px;
+        height: 40px;
+        bottom: 123px;
+        left: 69px;
+    }
+    .season_btn a.btn_2 ,
+    .season_btn a.btn_1 { 
+        height: 50px;
+    }
     .logo_main img {
         width: 152px;
-    }
-    .btn_1, .btn_2 {
-        font-size: 14px; 
-        padding: 5px 9px; 
-    }
+    } 
     .btn_1.social_btn {
-        height: 32px;
-        width: 32px; 
+        height: 45px;
+        width: 45px;
+    }
+    .explore_left .btn_2, .limited_text .btn_2 {
+        width: 143px;
+        height: 50px;
+    }
+    .become_btn .btn_1,
+    .become_btn .btn_2 { 
+        height: 50px;
+    }
+    .btn_1.join_btn,
+    .logo_btn a {
+        width: 130px; 
     }
     .banner_left h2 {
         font-size: 37px;
@@ -174,31 +413,15 @@
     }
     .banner_right {
         margin-top: 35px;
+    } 
+    .banner_left a {
+        width: 182px;
+        height: 50px;
     }
-    .btn_1.join_btn { 
-        padding: 5px 9px;
-    }
-}
-
-@media all and (max-width: 767px){
-    .banner_left {
-        text-align: center;
-    }
-    .single_game ul li p {
-        font-size: 14px;
-    }
+    
     .season_img { 
         width: 100%;
         position: inherit;
-    }
-    .single_game ul li {
-        padding: 9px 12px;
-    }
-    .single_game li img {
-        width: 18px;
-    }
-    .single_game_border::after { 
-        right: -16px; 
     }
     .season_contentt .row {
         -webkit-box-orient: vertical;
@@ -206,6 +429,130 @@
             -ms-flex-direction: column-reverse;
                 flex-direction: column-reverse;
     }
+    .season { 
+        padding-bottom: 0;
+    }
+}
+
+@media all and (max-width: 767px){
+    .map_1 {
+        width: 115px;
+        height: 66px;
+    }
+    .banner_left a { 
+        position: relative;
+        z-index: 99999;
+    }
+    .btn_blur img { 
+        bottom: -86px; 
+    }
+    .btn_blur img { 
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .map_2 {
+        width: 74px;
+        height: 44px;
+        bottom: 108px;
+        right: 83px;
+    }
+    .map_3 {
+        width: 58px;
+        height: 69px;
+        bottom: 184px;
+        right: 233px;
+    }
+    .map_4 {
+        width: 56px;
+        height: 32px;
+        bottom: 244px;
+        right: 219px;
+    }
+    .map_5 {
+        width: 126px;
+        height: 52px;
+        bottom: 247px;
+        right: 27px;
+    }
+    .map_6 {
+        width: 91px;
+        height: 52px;
+        bottom: 183px;
+        right: 58px;
+    }
+    .map_7 {
+        width: 34px;
+        height: 31px;
+        bottom: 205px;
+        left: 33px;
+    }
+    .map_8 {
+        width: 82px;
+        height: 75px;
+        bottom: 163px;
+        left: 150px;
+    }
+    .map_9 {
+        width: 58px;
+        height: 42px;
+        bottom: 204px;
+        left: 105px;
+    }
+    .map_10 {
+        width: 28px;
+        height: 27px;
+        bottom: 104px;
+        left: 45px;
+    }
+    .map_11 {
+        width: 107px;
+        height: 44px;
+        bottom: 239px;
+        left: 75px;
+    }
+    .map_12 {
+        width: 85px;
+        height: 49px;
+        bottom: 136px;
+        left: 79px;
+    }
+    .banner_left {
+        text-align: center;
+    }
+    .promotion_carsousel_2 .owl-next { 
+        left: inherit;
+        top: 20%;
+        right: 0;
+    }
+    .promotion_carsousel_2 .owl-prev {  
+        top: 20%; 
+    }
+    .banner_left a {
+        margin: 0 auto;
+    }
+    .logo_btn a {
+        width: 105px; 
+    }
+    .single_game ul li p {
+        font-size: 14px;
+    }
+    .explore_left p {
+        margin-bottom: 25px;
+    }
+    .single_game ul li {
+        padding: 9px 12px;
+    }
+    .explore_left .btn_2, .limited_text .btn_2 { 
+        margin: 0 auto;
+    }
+    .single_game li img {
+        width: 18px;
+    }
+    .single_game_border::after { 
+        right: -16px; 
+    }
+
     .game_img.game_img_1 img {
         width: 71px;
     }
@@ -303,18 +650,95 @@
         width: 90% !important;
         margin: 0 auto;
     }
+    .mobile_hide {
+        display: none;
+    } 
+    .dekstop_hide{ 
+        display: block;
+    }
+    /* .mobile_menu_main {
+	display: none;
+} */
 }
 
 @media all and (max-width: 575px){ 
-    .mobile_hide {
-        display: none;
+    
+    .map_1 {
+        width: 99px;
+        height: 62px;
+    }
+    .single_promotion img {
+        width: 68% !important; 
+    }
+    .map_2 {
+        width: 103px;
+        height: 53px;
+        bottom: 127px;
+        right: 113px;
+    }
+    .map_3 {
+        width: 54px;
+        height: 74px;
+        bottom: 158px;
+        right: 207px;
+    }
+    .map_4 {
+        width: 60px;
+        height: 38px;
+        bottom: 219px;
+        right: 187px;
+    }
+    .map_5 {
+        width: 109px;
+        height: 57px;
+        bottom: 215px;
+        right: 27px;
+    }
+    .map_6 {
+        width: 83px;
+        height: 53px;
+        bottom: 159px;
+        right: 58px;
+    }
+    .map_7 {
+        width: 38px;
+        height: 36px;
+        bottom: 181px;
+        left: 27px;
+    }
+    .map_8 {
+        width: 86px;
+        height: 69px;
+        bottom: 144px;
+        left: 126px;
+    }
+    .map_9 {
+        width: 61px;
+        height: 45px;
+        bottom: 181px;
+        left: 95px;
+    }
+    .map_10 {
+        width: 30px;
+        height: 27px;
+        bottom: 90px;
+        left: 38px;
+    }
+    .map_11 {
+        width: 92px;
+        height: 44px;
+        bottom: 212px;
+        left: 69px;
+    }
+    .map_12 {
+        width: 70px;
+        height: 40px;
+        bottom: 123px;
+        left: 69px;
     }
     .discover_content_left h3 {
         font-size: 25px;
         line-height: 17px;
-    }
-    .dekstop_hide{ 
-        display: block;
     }
     .btn_2 img {
         width: 17px !important; 
@@ -400,6 +824,78 @@
 }
 
 @media all and (max-width: 450px){
+    .map_1 {
+        width: 98px;
+        height: 52px;
+        bottom: 49px;
+        right: 22px;
+    }
+    .map_2 {
+        width: 80px;
+        height: 42px;
+        bottom: 102px;
+        right: 90px;
+    }
+    .map_3 {
+        width: 41px;
+        height: 59px;
+        bottom: 127px;
+        right: 168px;
+    }
+    .map_4 {
+        width: 51px;
+        height: 34px;
+        bottom: 173px;
+        right: 147px;
+    }
+    .map_5 {
+        width: 85px;
+        height: 44px;
+        bottom: 175px;
+        right: 27px;
+    }
+    .map_6 {
+        width: 66px;
+        height: 39px;
+        bottom: 131px;
+        right: 45px;
+    }
+    .map_7 {
+        width: 35px;
+        height: 34px;
+        bottom: 143px;
+        left: 20px;
+    }
+    .map_8 {
+        width: 74px;
+        height: 56px;
+        bottom: 120px;
+        left: 101px;
+    }
+    .map_9 {
+        width: 56px;
+        height: 40px;
+        bottom: 142px;
+        left: 73px;
+    }
+    .map_10 {
+        width: 30px;
+        height: 27px;
+        bottom: 72px;
+        left: 29px;
+    }
+    .map_11 {
+        width: 74px;
+        height: 31px;
+        bottom: 173px;
+        left: 55px;
+    }
+    .map_12 {
+        width: 70px;
+        height: 33px;
+        bottom: 102px;
+        left: 60px;
+    }
     .banner_left h2 {
         font-size: 27px;
         line-height: 36px;
@@ -431,6 +927,16 @@
     }
     .single_game_border::after { 
         width: 2px; 
+    }
+    .season_btn a.btn_1 ,
+    .season_btn a.btn_2 {
+        width: auto; 
+    } 
+    .become_btn { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
     }
 }
 

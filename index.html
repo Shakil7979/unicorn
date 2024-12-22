@@ -21,19 +21,20 @@
         <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- CSS Files -->
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
     <body> 
-
+<!-- 
         <div id="preloader">
             <div id="loader"></div>
-        </div>
+        </div> -->
 
         
         <!--=====================  Start Header Area  ====================-->
-        <header class="header_area">
+        <header class="header_area" data-aos="fade-down">
             <div class="container">
                 <div class="header">
                     <div class="logo">
@@ -49,21 +50,19 @@
                     </div> 
                     <div class="header_social">
                         <ul>
-                            <li><a href="#" class="btn_1 join_btn mobile_hide">Join US <img src="assets/images/header/location.png" alt=""></a></li>
-                            <li><a href="#" class="btn_1 social_btn"><img src="assets/images/header/instagram.png" alt=""></a></li>
-                            <li><a href="#" class="btn_1 social_btn"><img src="assets/images/header/twitter.png" alt=""></a></li>
+                            <li class="mobile_hide"><a href="https://t.me/unicorntap" class="btn_1 join_btn" target="_blank">Join US <img src="assets/images/header/location.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/unicorntap.io/" class="btn_1 social_btn" target="_blank"><img src="assets/images/header/instagram.png" alt=""></a></li>
+                            <li><a href="https://x.com/Unicorn_Tap" class="btn_1 social_btn" target="_blank"><img src="assets/images/header/twitter.png" alt=""></a></li>
                             <li class="dekstop_hide"><a href="#" class="btn_1 social_btn mobile_bars"><i class="fas fa-bars"></i></a></li>
                         </ul>
-                    </div>
-                    <div class="mobile_menu_main dekstop_hide">
-                        <div class="mobile_menu ">
-                            <ul>
-                                <li><a href="#" class="btn_1">Join US <img src="assets/images/header/location.png" alt=""></a></li>
-                                <li> <a href="#" class="btn_2">Whitepaper</a></li>
-                                <li> <a class="btn_1" href="#">Audit</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    </div> 
+                    <div class="mobile_menu ">
+                        <ul>
+                            <li><a href="https://t.me/unicorntap" class="btn_1" target="_blank">Join US <img src="assets/images/header/location.png" alt=""></a></li>
+                            <li> <a href="#" class="btn_2">Whitepaper</a></li>
+                            <li> <a class="btn_1" href="#">Audit</a></li>
+                        </ul>
+                    </div> 
                 </div>
             </div>
         </header>
@@ -75,14 +74,17 @@
                 <div class="container">
                     <div class="banner_contentt">
                         <div class="row align-items-center">
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-right">
                                 <div class="banner_left">
                                     <h2>Earn money while experiencing the world of Unicorn Tap!</h2>
                                     <p>Why waste your time playing traditional games when you can earn money passively on the side. Download the free game and start your journey now to become one of Pakolt's biggest miners. By tapping you earn free Unicoins, which you can exchange for real cryptocurrencies! Learn more about Unicorn Tap below or inside the Whitepaper!</p> 
                                     <a href="#" class="btn_2">Download Now <img src="assets/images/header/download.png" alt=""></a>
+                                    <div class="btn_blur">
+                                        <img src="assets/images/banner/btn_blur.png" alt="">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-left">
                                 <div class="banner_right">
                                     <img src="assets/images/banner/banner.png" alt="">
                                 </div>
@@ -102,13 +104,13 @@
                     <div class="season">
                         <div class="season_contentt"> 
                             <div class="row">
-                                <div class="col-md-4">
-                                    <div class="season_img">
+                                <div class="col-lg-4">
+                                    <div class="season_img" data-aos="fade-up">
                                         <img class="season_orgin_img" src="assets/images/season/1.png" alt="">
                                         <img class="seaeson_blur" src="assets/images/season/Elipse Blur(1).png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-8">
+                                <div class="col-lg-8">
                                     <div class="season_rightt">
                                         <h2>BETA SEASON</h2>
                                         <h4>Testing & Enhancing Phase</h4>
@@ -134,7 +136,7 @@
                     <div class="section_title">
                         <h2>Our trusted Partners</h2>
                     </div>
-                    <div class="partners_content"> 
+                    <div class="partners_content"  data-aos="fade-up"> 
                         <div class="partner_content_box">
                             <div class="row align-items-center">
                                 <div class="col-lg-4 col-6">
@@ -198,12 +200,29 @@
                     <div class="section_title">
                         <h2>Jokoje’s exciting Life</h2>
                     </div>
-                    <div class="row">
+                    <div class="row"   data-aos="fade-up">
                         <div class="col-md-12">
-                            <div class="exit_img">
-                                <img src="assets/images/exit/jokes.png" alt="">
+                            <!-- <div class="exit_img ">
+                                <img src="assets/images/exit/jokes.png" alt=""> 
+                                <a href="#" class="video_btn wathc_video"><i class="fa-regular fa-circle-play"></i></a>
+                            </div> -->
+                            <div class="exit_video">
+                                <video controls>
+                                    <source src="assets/images/exit/jokes.mp4" type="video/mp4"> 
+                                </video>
+                                <img src="assets/images/exit/curton.png" alt="">
                             </div>
                         </div>
+                    </div>
+                </div> 
+                
+                
+                <div id="videoPopup" class="popup-overlay">
+                    <div class="popup-content">
+                        <video id="localVideo" controls>
+                            <source src="" type="video/mp4"> 
+                        </video>
+                        <button class="close-popup"><i class="fas fa-times"></i></button>
                     </div>
                 </div>
             </section>
@@ -215,34 +234,34 @@
                     <div class="game_box"> 
                         <div class="row gx-5">
                             <div class="col-6">
-                                <div class="single_game single_game_border">
+                                <div class="single_game single_game_border" data-aos="fade-right">
                                     <div class="game_img game_img_1"> 
                                         <img src="assets/images/game/1.png" alt="">
                                     </div>
                                     <ul>
-                                        <li><p>Telegram In-App game</p> <img src="assets/images/game/close.png" alt=""> </li>
-                                        <li><p>TON Blockchain</p> <img src="assets/images/game/close.png" alt=""> </li>
-                                        <li><p>Token Airdrops</p> <img src="assets/images/game/close.png" alt=""> </li>
-                                        <li><p>Quests</p> <img src="assets/images/game/close.png" alt=""> </li>
-                                        <li><p>No NFTs</p> <img src="assets/images/game/close.png" alt=""> </li>
-                                        <li><p>Not Competitive</p> <img src="assets/images/game/close.png" alt=""> </li>
-                                        <li><p>No more Tap-to-earn</p> <img src="assets/images/game/close.png" alt=""> </li>
+                                        <li class="game_play_1"><p>Telegram In-App game</p> <img src="assets/images/game/close.png" alt=""> </li>
+                                        <li class="game_play_2"><p>TON Blockchain</p> <img src="assets/images/game/close.png" alt=""> </li>
+                                        <li class="game_play_3"><p>Token Airdrops</p> <img src="assets/images/game/close.png" alt=""> </li>
+                                        <li class="game_play_4"><p>Quests</p> <img src="assets/images/game/close.png" alt=""> </li>
+                                        <li class="game_play_5"><p>No NFTs</p> <img src="assets/images/game/close.png" alt=""> </li>
+                                        <li class="game_play_6"><p>Not Competitive</p> <img src="assets/images/game/close.png" alt=""> </li>
+                                        <li class="game_play_7"><p>No more Tap-to-earn</p> <img src="assets/images/game/close.png" alt=""> </li>
                                     </ul> 
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="single_game">
+                                <div class="single_game" data-aos="fade-left">
                                     <div class="game_img game_img_2">
                                         <img src="assets/images/game/2.png" alt="">
                                     </div>
                                     <ul>
-                                        <li><p>Independent with own App</p> <img src="assets/images/game/check.png" alt=""> </li>
-                                        <li><p>Ehtereum Blockchain</p> <img src="assets/images/game/check.png" alt=""> </li>
-                                        <li><p>New ICO ervery Season</p> <img src="assets/images/game/check.png" alt=""> </li>
-                                        <li><p>Quests. Seasons. League</p> <img src="assets/images/game/check.png" alt=""> </li>
-                                        <li><p>Exclusive and Limited NFTs</p> <img src="assets/images/game/check.png" alt=""> </li>
-                                        <li><p>Competitive Crypto Game</p> <img src="assets/images/game/check.png" alt=""> </li>
-                                        <li><p>Tap-to-earn free Unicoins</p> <img src="assets/images/game/check.png" alt=""> </li>
+                                        <li class="game_play_1"><p>Independent with own App</p> <img src="assets/images/game/check.png" alt=""> </li>
+                                        <li class="game_play_2"><p>Ehtereum Blockchain</p> <img src="assets/images/game/check.png" alt=""> </li>
+                                        <li  class="game_play_3"><p>New ICO ervery Season</p> <img src="assets/images/game/check.png" alt=""> </li>
+                                        <li class="game_play_4"><p>Quests. Seasons. League</p> <img src="assets/images/game/check.png" alt=""> </li>
+                                        <li class="game_play_5"><p>Exclusive and Limited NFTs</p> <img src="assets/images/game/check.png" alt=""> </li>
+                                        <li class="game_play_6"><p>Competitive Crypto Game</p> <img src="assets/images/game/check.png" alt=""> </li>
+                                        <li class="game_play_7"><p>Tap-to-earn free Unicoins</p> <img src="assets/images/game/check.png" alt=""> </li>
                                     </ul> 
                                 </div>
                             </div>
@@ -266,15 +285,15 @@
                     </div>
 
                     <div class="discover_content">
-                        <div class="discover_content_left">
+                        <div class="discover_content_left" data-aos="fade-right">
                             <h3>Click to earn <span>free</span> Unicorns!</h3>
                             <p>Earning money has never been easier! Tapping for Jokoje earns you Unicoins which give you status and wealth in return. You can exchange them for real cryptocurrencies every season. You can compete with other players and earn incredible bonuses in a league or daily quests. May the fittest miners win!</p>
                             <img src="assets/images/discover/coin.png" alt="">
                         </div>
-                        <div class="discover_img">
+                        <div class="discover_img" data-aos="fade-up">
                             <img src="assets/images/discover/main.png" alt="">
                         </div>
-                        <div class="discover_content_left">
+                        <div class="discover_content_left" data-aos="fade-left">
                             <h3>Become a better miner with <span>graphics cards</span>!</h3>
                             <p>Your graphics cards overheat when overloaded after a certain time and you can store up to 3 of them. Depending on the level you bring your graphics 
                                 card to, you can use it for longer without having to
@@ -292,23 +311,23 @@
             <!--=====================  Start Rewords Area  ====================-->
             <section class="rewords_area section_padding">
                 <div class="container">
-                    <div class="rewords_box"> 
+                    <div class="rewords_box"  > 
                         <div class="section_title">
                             <h2>Use special <span>items and boosters</span> <br> for maximum rewards</h2>
                         </div>
-                        <div class="rewords_row"> 
+                        <div class="rewords_row"  data-aos="fade-up"> 
                             <div class="single_rewords">
                                 <img src="assets/images/rewords/1.png" alt="">
                                 <div class="rewords_text">
-                                    <p>The multiplier turns every tap into a multiple, allowing you to mine Unicoins much faster and more 
-                                        efficiently.</p>
+                                    <p>The Ghost of Pakolt does the tapping for you and taps at a speed of 2 taps per second
+                                        even when you are absent.</p>
                                 </div>
                             </div> 
                             <div class="single_rewords">
                                 <img src="assets/images/rewords/2.png" alt="">
                                 <div class="rewords_text">
-                                    <p>The multiplier turns every tap into a multiple, allowing you to mine Unicoins much faster and more 
-                                        efficiently.</p>
+                                    <p>Pakolt Dust from the planet Pakolt can be used as energy for graphics cards and has
+                                        the effect that they do not overload and have to be regenerated.</p>
                                 </div>
                             </div> 
                             <div class="single_rewords">
@@ -345,34 +364,215 @@
                             <h2>Compete with other Miners in various <br>
                                 Districts for <span>promotion</span> and wealth.</h2>
                         </div>
-                        <div class="promotion_content">
-                            <div class="row align-items-center">
-                                <div class="col-md-6">
-                                    <div class="promotion_carsousel owl-carousel owl-theme">
+
+                        <div class="promotion_carsousel_2 owl-carousel owl-theme"> 
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
                                         <div class="single_promotion">
-                                            <img src="assets/images/promotion/1.png" alt="">
-                                        </div>
-                                        <div class="single_promotion">
-                                            <img src="assets/images/promotion/1.png" alt="">
-                                        </div>
-                                        <div class="single_promotion">
-                                            <img src="assets/images/promotion/1.png" alt="">
+                                            <img src="assets/images/league/Rugpull Hills .png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Rugpull Hills</h3>
+                                                <p>The journey begins here. Escape prison by proving yourself as a skilled miner!</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: 1-30</p></li>
+                                                <li><p>Relegation: </p></li>
+                                                <li><p>Minimum points: 25,000</p></li>
+                                                <li><p>Season bonus: 15,000 coins</p></li> 
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="promotion_text">
-                                        <div class="promotion_top_text">
-                                            <h3>Moon Sphere</h3>
-                                            <p>Legends are created here. Incredible legends.
-                                            But that doesn't just mean coins!</p>
+                            </div>
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
+                                        <div class="single_promotion">
+                                            <img src="assets/images/league/Redcandle valley.png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Redcandle Valley</h3>
+                                                <p>Red candles wherever you look. Show that you don't belong here!</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: 1-20</p></li>
+                                                <li><p>Relegation: 41-50</p></li>
+                                                <li><p>Minimum points: 50,000</p></li>
+                                                <li><p>Season bonus: 30,000 coins</p></li> 
+                                            </ul>
                                         </div>
-                                        <ul> 
-                                            <li><p>Promotion: 1</p></li>
-                                            <li><p>Relegation: 21-50</p></li>
-                                            <li><p>Minimum points: 500,000</p></li>
-                                            <li><p>Season bonus: 350,000 coins</p></li> 
-                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
+                                        <div class="single_promotion">
+                                            <img src="assets/images/league/Dump Town  Kopie.png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Dump Town</h3>
+                                                <p>Potential dies if the community dumps too early. Prove your experience and move 
+                                                    up!</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: 1-20</p></li>
+                                                <li><p>Relegation: 41-50</p></li>
+                                                <li><p>Minimum points: 75,000</p></li>
+                                                <li><p>Season bonus: 50,000 coins</p></li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
+                                        <div class="single_promotion">
+                                            <img src="assets/images/league/Bear Island .png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Bear Island</h3>
+                                                <p>A negative attitude is like poison for cryptocurrencies. Prove your commitment and
+                                                    leave!</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: 1-15</p></li>
+                                                <li><p>Relegation: 36-50</p></li>
+                                                <li><p>Minimum points: 100,000</p></li>
+                                                <li><p>Season bonus: 75,000 coins</p></li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
+                                        <div class="single_promotion">
+                                            <img src="assets/images/league/Greencandle city.png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Greencandle City</h3>
+                                                <p>You have finally arrived in a green district. But how long should your candles be?</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: 1-15</p></li>
+                                                <li><p>Relegation: 36-50</p></li>
+                                                <li><p>Minimum points: 150,000</p></li>
+                                                <li><p>Season bonus: 100,000 coins</p></li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
+                                        <div class="single_promotion">
+                                            <img src="assets/images/league/Pump City.png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Pump City</h3>
+                                                <p>One after the other pushes the price up. That's exactly all what it needs! Or is it?</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: 1-10</p></li>
+                                                <li><p>Relegation: 31-50</p></li>
+                                                <li><p>Minimum points: 200,000</p></li>
+                                                <li><p>Season bonus: 150,000 coins</p></li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
+                                        <div class="single_promotion">
+                                            <img src="assets/images/league/Bull Island.png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Bull Island</h3>
+                                                <p>Everyone is optimistic and the only way is up. Follow this path too!</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: 1-5</p></li>
+                                                <li><p>Relegation: 26-50</p></li>
+                                                <li><p>Minimum points: 300,000</p></li>
+                                                <li><p>Season bonus: 200,000 coins</p></li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
+                                        <div class="single_promotion">
+                                            <img src="assets/images/league/Moonsphere.png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Moon Sphere</h3>
+                                                <p>Legends are created here. Incredible legends. But that doesn't just mean
+                                                    coins!</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: 1</p></li>
+                                                <li><p>Relegation: 21-50</p></li>
+                                                <li><p>Minimum points: 500,000</p></li>
+                                                <li><p>Season bonus: 350,000 coins</p></li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promotion_content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6" data-aos="fade-right"> 
+                                        <div class="single_promotion">
+                                            <img src="assets/images/league/Whale Zone.png" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left">
+                                        <div class="promotion_text">
+                                            <div class="promotion_top_text">
+                                                <h3>Whale Zone</h3>
+                                                <p>You are a legend! Enjoy it here and live like a king surrounded by wealth!</p>
+                                            </div>
+                                            <ul> 
+                                                <li><p>Promotion: </p></li>
+                                                <li><p>Relegation: 26-50</p></li>
+                                                <li><p>Minimum points: </p></li>
+                                                <li><p>Season bonus: 500,000 coins</p></li> 
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -390,8 +590,8 @@
                 <div class="container">
                     <div class="explore_content">
                         <div class="row">
-                            <div class="col-md-4">
-                                <div class="explore_left">
+                            <div class="col-md-4" data-aos="fade-right">
+                                <div class="explore_left explore_main">
                                     <h4>Participate in the Seasons and 
                                         see what Jokoje has to tell us!</h4>
                                     <p>Jokoje has a message he wants to share with us. 
@@ -403,14 +603,110 @@
                                         <a href="#" class="btn_2">Visit ICO</a>
                                     </div>
                                 </div>
+                                <div class="explore_left explore_1">
+                                    <h4>Whale Zone</h4>
+                                    <p>the south-east, the richest of the rich are located in the Whale Zone. It is a closed community and therefore prefers to remain unnoticed.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_2">
+                                    <h4>Pump City</h4>
+                                    <p>Pump City, which is also the largest of all districts, is responsible for the positive news.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_3">
+                                    <h4>Moon Sphere</h4>
+                                    <p>The new cryptocurrencies are developed and improved in Moonsphere. This is the control center of all blockchains and the heart of Pakolt.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_4">
+                                    <h4>Rugpull Hills</h4>
+                                    <p>Rugpull Hills houses all the prisons of Palkot. Here are historical criminals from different planets. This district is separated from the other districts by the Honey Sea</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_5">
+                                    <h4>Mountains</h4>
+                                    <p>It looks like you've lost your way, up here in the mountains there's nothing but memories and ruins of times gone by. Now everything has been overgrown by a dense forest.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_6">
+                                    <h4>Greencandle Valley </h4>
+                                    <p>In the east is Greencandle City, where universities and schools are located to train the Pakolters to become experts and teach them everything about blockchain, staking, mining and more. The current focus is on the blockchain trilemma which tries to combine scalability, speed and decentralization.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_7">
+                                    <h4>Bear Island</h4>
+                                    <p>The smallest district, Bear Island, is located to the south. There are many residents here who have conspired against the system and criticize progress. However, they only make up 14% of the population.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_8">
+                                    <h4>Bull Island</h4>
+                                    <p>Bull Island accounts for 62% of the population.This is where the majority of Pakolt's inhabitants live and work.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_9">
+                                    <h4>Redcandle Valley</h4>
+                                    <p>Redcandle Valley is located in the west and is the poorest of all the districts. Due to the lack of education of the inhabitants, very few successful coins come from this district.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_10">
+                                    <h4>A Secret Cave</h4>
+                                    <p>Everyone wonders what it hides, but no one who has ever entered it tells what they have seen. What secrets does the cave hide?</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_11">
+                                    <h4>An Old Mine</h4>
+                                    <p>But you've really moved away from the districts. There's nothing here but mountains of quarried rock. But if you look closely, you can still see small pink crystals sparkling. I wonder what was mined here back then?</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
+                                <div class="explore_left explore_12">
+                                    <h4>Dump Town</h4>
+                                    <p>To the south is Dum Town, which is responsible for selling shares if one of the planets has bad news for their coin.</p>
+                                    <div class="explore_btn">
+                                        <a href="#" class="btn_2">Visit ICO</a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="explore_right">
                                     <div class="section_title">
                                         <h2>Explore the <span>districts</span> of <br> the incredible world <br> of Pakolt!</h2>
                                     </div>
-                                    <div class="explore_img">
+                                    <div class="explore_img" data-aos="fade-up">
                                         <img src="assets/images/explore/Map.png" alt="">
+                                        <div class="map_1"></div>
+                                        <div class="map_2"></div>
+                                        <div class="map_3"></div>
+                                        <div class="map_4"></div>
+                                        <div class="map_5"></div>
+                                        <div class="map_6"></div>
+                                        <div class="map_7"></div>
+                                        <div class="map_8"></div>
+                                        <div class="map_9"></div>
+                                        <div class="map_10"></div>
+                                        <div class="map_11"></div>
+                                        <div class="map_12"></div>
                                     </div>
                                 </div>
                             </div>
@@ -420,6 +716,9 @@
                 <div class="explore_blur">
                     <img src="assets/images/explore/blur.png" alt="">
                 </div>
+                <div class="explore_blur_2">
+                    <img src="assets/images/explore/map_blur.png" alt="">
+                </div>
             </section>
             <!--=====================  End explore Area  ====================--> 
 
@@ -428,20 +727,29 @@
                 <div class="container">
                     <div class="limited">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-right">
                                 <div class="promotion_carsousel limite_carousel owl-carousel owl-theme">
                                     <div class="single_promotion">
-                                        <img src="assets/images/limited/1.png" alt="">
+                                        <img src="assets/images/limited/Golden-Whale- NFT.jpg" alt="">
                                     </div>
                                     <div class="single_promotion">
-                                        <img src="assets/images/limited/1.png" alt="">
+                                        <img src="assets/images/limited/Bull-Island-NFT.jpg" alt="">
                                     </div>
                                     <div class="single_promotion">
-                                        <img src="assets/images/limited/1.png" alt="">
+                                        <img src="assets/images/limited/Greencandle-City-NFT.png" alt="">
+                                    </div>
+                                    <div class="single_promotion">
+                                        <img src="assets/images/limited/Moon-Sphere-NFT.jpg" alt="">
+                                    </div>
+                                    <div class="single_promotion">
+                                        <img src="assets/images/limited/Nothing_NFT_Fortune_Website.jpg" alt="">
+                                    </div>
+                                    <div class="single_promotion">
+                                        <img src="assets/images/limited/PumpCity-NFT.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-left">
                                 <div class="limited_text">
                                     <h3>Find exclusive and strictly <span>limited  NFTs</span> to gain even 
                                         more Prestige!</h3>
@@ -464,13 +772,13 @@
                 <div class="container">
                     <div class="become_content">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="become_left">
+                            <div class="col-md-6" data-aos="fade-right">
+                                <div class="become_left" >
                                     <h3>Become a true Miner now and get <span>Unicorn Tap</span> for free. 
                                         Help Jokoje deliver his Message to Earth and benefit from different Rewards!</h3>
                                     <div class="become_btn">
                                         <a href="#" class="btn_2">Download Now <img src="assets/images/header/download.png" alt=""></a> 
-                                        <a href="#" class="btn_1">Telegram<img src="assets/images/header/location.png" alt=""></a>
+                                        <a href="https://t.me/unicorntap" class="btn_1" target="_blank">Telegram<img src="assets/images/header/location.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -487,10 +795,10 @@
         </main>
                 
         <!--=====================  Start Header Area  ====================-->
-        <footer class="footer_area section_padding">
+        <footer class="footer_area section_padding" data-aos="fade-up">
             <div class="container">
                 <div class="header_top">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-md-8">
                             <div class="footer_menu">
                                 <ul>
@@ -506,10 +814,10 @@
                         <div class="col-md-4">
                             <div class="footer_social">
                                 <ul>
-                                    <li><a href="#"><img src="assets/images/footer/1.png" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/footer/2.png" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/footer/3.png" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/footer/4.png" alt=""></a></li>
+                                    <li><a href="https://t.me/unicorntap" target="_blank"><img src="assets/images/footer/1.png" alt=""></a></li>
+                                    <li><a href="https://www.youtube.com/@unicorntap" target="_blank"><img src="assets/images/footer/2.png" alt=""></a></li>
+                                    <li><a href="https://www.instagram.com/unicorntap.io/" target="_blank"><img src="assets/images/footer/3.png" alt=""></a></li>
+                                    <li><a href="https://x.com/Unicorn_Tap" target="_blank"><img src="assets/images/footer/4.png" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -546,6 +854,7 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <!-- Modernizr -->
         <script src="assets/js/modernizr-3.11.2.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="assets/js//owl.carousel.min.js"></script>
         <!-- Custom JS (Handed)-->
         <script src="assets/js/scripts.js"></script>

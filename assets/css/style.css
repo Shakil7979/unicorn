@@ -1464,6 +1464,41 @@ button:focus-within{
 	margin-left: 16px;
 }
 
+.alpha_card ul li {
+	margin-bottom: 10px;
+}
+
+.beta_alpha_single{
+	position: relative;
+}
+
+.alpha_shape_1 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	width: 50%;
+	height: 728px;
+}
+
+.alpha_shape_1 img {
+	width: 100%;
+}
+.alpha_roadmap {
+	position: absolute;
+	bottom: 105px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 274px;
+	height: 129px;
+}
+
+.alpha_shape_1 img {
+	width: 100%;
+}
+
 
 /*======================  End Page  ======================*/
 

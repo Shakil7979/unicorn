@@ -156,8 +156,6 @@ $(document).ready(function () {
 });
 
 
- 
-
 $(document).ready(function () {
     // Initially show cusro_content_1
     $(".cursor_point_single").hide();
@@ -170,7 +168,9 @@ $(document).ready(function () {
     }
 
     // Hover and click for cursor_content_show_1
-    
+    // $(".cursor_content_show_1").on("mouseenter click", function () {
+    //     showContent(".cusro_content_1");
+    // });
 
     // Hover and click for cursor_content_show_2
     $(".cursor_content_show_2").on("mouseenter click", function () {
@@ -182,7 +182,8 @@ $(document).ready(function () {
         showContent(".cusro_content_3");
     });
 
-	$(".cursor_content_show_4").on("mouseenter click", function () {
+    // Hover and click for cursor_content_show_4
+    $(".cursor_content_show_4").on("mouseenter click", function () {
         showContent(".cusro_content_4");
     });
 

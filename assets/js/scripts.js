@@ -157,3 +157,39 @@ $(document).ready(function () {
 
 
  
+
+$(document).ready(function () {
+    // Initially show cusro_content_1
+    $(".cursor_point_single").hide();
+    $(".cusro_content_1").show();
+
+    // Function to handle content display
+    function showContent(contentClass) {
+        $(".cursor_point_single").hide(); // Hide all
+        $(contentClass).show(); // Show the specific content
+    }
+
+    // Hover and click for cursor_content_show_1
+    
+
+    // Hover and click for cursor_content_show_2
+    $(".cursor_content_show_2").on("mouseenter click", function () {
+        showContent(".cusro_content_2");
+    });
+
+    // Hover and click for cursor_content_show_3
+    $(".cursor_content_show_3").on("mouseenter click", function () {
+        showContent(".cusro_content_3");
+    });
+
+	$(".cursor_content_show_4").on("mouseenter click", function () {
+        showContent(".cusro_content_4");
+    });
+
+    // Click outside the container resets to cusro_content_1
+    $(document).on("click", function (e) {
+        if (!$(e.target).closest(".single_beta_img").length) {
+            showContent(".cusro_content_1");
+        }
+    });
+});

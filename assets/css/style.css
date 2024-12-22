@@ -1372,7 +1372,7 @@ button:focus-within{
 }
 
 .single_beta_img.single_beta_img_top {
-	transform: translateY(165px);
+	transform: translateY(80px);
 }
 
 .single_beta_img img {
@@ -1397,6 +1397,18 @@ button:focus-within{
 	line-height: 42px;
 	letter-spacing: 0.04em;
 	text-align: center; 
+}
+
+.cursor_place_box p span{ 
+	color: #E73DFF;
+}
+
+.cursor_point_single{
+	display: none;
+}
+
+.cusro_content_1 {
+	display: block;
 }
 
 .cursor_place_area ,

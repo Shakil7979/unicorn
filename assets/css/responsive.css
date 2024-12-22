@@ -13,6 +13,9 @@
     .exit_video img {  
         width: 19%;
     }
+    .alpha_card h4 { 
+        font-size: 72px; 
+    }
     .map_1 {
         width: 201px;
         height: 155px; 
@@ -123,9 +126,30 @@
     .logo { 
         gap: 2px;
     }
+    .beta_banner h2 { 
+        font-size: 125px; 
+    }
+    .beta_banner h3 { 
+        font-size: 50px; 
+    }
+    .single_beta_img.single_beta_img_top {
+        transform: translateY(85px);
+    }
+    .alpha_card ul li p { 
+        font-size: 26px; 
+    }
+    .alpha_card ul li {
+        margin-bottom: 4px;
+    }
+    .alpha_card h4 { 
+        font-size: 50px; 
+    }
     .map_1 {
         width: 147px;
         height: 93px;
+    }
+    .beta_banner h4 { 
+        font-size: 40px; 
     }
     .map_2 {
         width: 123px;
@@ -238,6 +262,34 @@
 @media all and (max-width: 991px){
     .logo_btn { 
         gap: 10px;
+    }
+    .cursor_place_box {
+        padding: 55px 55px;
+        background: #13131B;
+        border-radius: 41px;
+        text-align: center;
+    }
+    .alpha_roadmap_2 {
+        right: 26px;
+    }
+    .alpha_roadmap_2,
+    .alpha_roadmap { 
+        bottom: 12px; 
+    }
+    .alpha_roadmap_2 img ,
+    .alpha_roadmap img {
+        width: 70%;
+    }
+    .alpha_card ul li p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .alpha_card h4 {
+        font-size: 40px;
+    }
+    .alpha_card {
+        padding: 20px 30px; 
+        border-radius: 32px; 
     }
     .header_area { 
         position: relative;
@@ -438,6 +490,38 @@
     .map_1 {
         width: 115px;
         height: 66px;
+    }
+    .beta_shape_2,
+    .beta_shape_1 { 
+        width: 100%;
+    }
+    .beta_alpha_single.beta_reverse .row {
+        flex-direction: column-reverse;
+    }
+    .beta_shape_2 { 
+        top: inherit; 
+        bottom: 0;
+    }
+    .alpha_roadmap ,
+    .alpha_roadmap_2 { 
+        display: none;
+    }
+    .alpha_shape_1 { 
+        width: 100%; 
+    }
+    .beta_banner h2 {
+        font-size: 80px;
+    }
+    .single_beta_img.single_beta_img_top {
+        transform: translateY(0);
+    }
+    .beta_banner h4 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+    .beta_banner h3 {
+        font-size: 30px;
+        margin-top: 20px;
     }
     .banner_left a { 
         position: relative;
@@ -662,7 +746,33 @@
 }
 
 @media all and (max-width: 575px){ 
-    
+    .beta_banner h2 {
+        font-size: 65px;
+    }
+    .cursor_place_box p { 
+        font-size: 22px; 
+        line-height: 29px; 
+    }
+    .alpha_card ul li p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .alpha_card h4 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .cursor_place_box {
+        padding: 30px; 
+        border-radius: 20px; 
+    }
+    .beta_banner h3 {
+        font-size: 27px;
+        margin-top: 10px;
+    }
+    .beta_banner h4 {
+        font-size: 20px;
+        line-height: 17px;
+    }
     .map_1 {
         width: 99px;
         height: 62px;

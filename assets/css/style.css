@@ -1335,6 +1335,135 @@ button:focus-within{
 	transform: translateX(-25px); 
 }
 
+.beta_banner h2 {
+	font-family: 'MALDINI';
+	font-size: 210px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-align: center;
+	color: #fff;
+	text-shadow: 6px 16px 7px #dfdfdf;
+}
+
+.beta_banner h3 {
+	font-family: 'MALDINI';
+	font-size: 75px;
+	font-weight: 700;
+	line-height: 70px;
+	letter-spacing: 0.04em;
+	text-align: center; 
+	color: #fff; 
+	margin-top: 51px;
+}
+
+.beta_banner h4 {
+	font-family: 'MALDINI';
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 70px;
+	letter-spacing: 0.04em;
+	text-align: center; 
+	color: #d5d5d5;
+}
+
+.single_beta_img.single_beta_img_top {
+	transform: translateY(165px);
+}
+
+.single_beta_img img {
+	width: 100%;
+}
+
+.beta_banner_area{
+	padding-bottom: 170px;
+}
+
+.cursor_place_box {
+	padding: 74px 104px;
+	background: #13131B;
+	border-radius: 71px;
+	text-align: center;
+}
+
+.cursor_place_box p {
+	font-family: 'MALDINI';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 0.04em;
+	text-align: center; 
+}
+
+.cursor_place_area ,
+.section_title h2 {
+	font-size: 55px; 
+}
+
+.beta_banner_area {
+	position: relative;
+}
+
+.beta_shape_1 {
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	width: 488px;
+}
+
+.beta_shape_2 {
+	position: absolute;
+	bottom: -50px;
+	right: 0;
+	width: 437px;
+}
+
+.beta_shape_2 img ,
+.beta_shape_1 img {
+	width: 100%;
+}
+
+.alpha_img img {
+	width: 100%;
+}
+
+.bg_body {
+	background: url(../images/beta/bg.png) no-repeat scroll center center / 100% 100% !important;
+}
+
+.alpha_card {
+	padding: 31px 74px;
+	background: #17171C;
+	border-radius: 71px;
+	width: 100%;
+	max-width: 622px;
+}
+
+.alpha_card h4 {
+	font-family: 'MALDINI';
+	font-size: 85px;
+	font-weight: 700;
+	line-height: 80px;
+	letter-spacing: 0.04em;
+	text-align: left; 
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.alpha_card ul li p {
+	font-family: 'MALDINI';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 0.04em;
+	text-align: left; 
+}
+
+.alpha_card ul {
+	list-style: disc;
+	color: #fff;
+	margin-left: 16px;
+}
+
 
 /*======================  End Page  ======================*/
 

@@ -1339,7 +1339,7 @@ button:focus-within{
 	position: relative;
 	z-index: 999;
 }
-
+/* 
 .beta_banner h2 {
 	font-family: 'MALDINI';
 	font-size: 210px;
@@ -1348,7 +1348,21 @@ button:focus-within{
 	text-align: center;
 	color: #fff;
 	text-shadow: 6px 16px 7px #5b5b5b;
+} */
+
+.beta_banner h2 {
+	font-family: 'MALDINI', sans-serif;
+	font-size: 210px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: -15px 18px 0px rgba(91, 91, 91, 0.79), -28px 31px 0px rgba(136, 136, 136, 0.14), 6px 16px 7px rgba(91, 91, 91, 0.9);
 }
+  
+  
+  
+  
 
 .beta_banner h3 {
 	font-family: 'MALDINI';

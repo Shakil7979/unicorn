@@ -491,6 +491,9 @@
         width: 115px;
         height: 66px;
     }
+    .beta_banner h2 { 
+        text-shadow: -4px 4px 0px rgba(91, 91, 91, 0.79), -8px 10px 0px rgba(136, 136, 136, 0.14), -9px 16px 14px rgba(91, 91, 91, 0.9);
+    }
     .beta_shape_2,
     .beta_shape_1 { 
         width: 100%;
